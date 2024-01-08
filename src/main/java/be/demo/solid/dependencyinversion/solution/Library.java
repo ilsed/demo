@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Library {
-    private BookPrinter bookPrinter;
+    private final BookPrinter bookPrinter;
 
-    private List<Book> bookCollection = new ArrayList<>();
+    private final List<Book> bookCollection = new ArrayList<>();
 
     public Library(BookPrinter bookPrinter) {
         this.bookPrinter = bookPrinter;

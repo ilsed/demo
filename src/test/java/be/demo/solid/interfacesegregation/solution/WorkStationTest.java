@@ -1,4 +1,4 @@
-package be.demo.solid.interfacesegragation.solution;
+package be.demo.solid.interfacesegregation.solution;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package be.demo.solid.interfacesegragation.solution;
+package be.demo.solid.interfacesegregation.solution;
 
 class HumanWorker implements Workable, Eatable {
     @Override

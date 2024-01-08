@@ -1,4 +1,4 @@
-package be.demo.solid.interfacesegragation.step1;
+package be.demo.solid.interfacesegregation.step1;
 
 class WorkStation {
 

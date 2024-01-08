@@ -1,26 +1,29 @@
 package be.demo.solid.dependencyinversion.solution;
 
-/**
- * Let’s begin with the single responsibility principle. As we might expect, this principle states that a class should only have one responsibility. Furthermore, it should only have one reason to change.
- * <p>
- * How does this principle help us to build better software? Let’s see a few of its benefits:
- * <p>
- * Testing – A class with one responsibility will have far fewer test cases.
- * Lower coupling – Less functionality in a single class will have fewer dependencies.
- * Organization – Smaller, well-organized classes are easier to search than monolithic ones.
- */
 public class Book {
 
-    private String name;
-    private String author;
-    private String text;
-    private String shortSummary;
+    private final String name;
+    private final String author;
+    private final String text;
+    private final String shortSummary;
 
     public Book(String name, String author, String text, String shortSummary) {
         this.name = name;
         this.author = author;
         this.text = text;
         this.shortSummary = shortSummary;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public String getText() {
+        return text;
     }
 
     public String getShortSummary() {

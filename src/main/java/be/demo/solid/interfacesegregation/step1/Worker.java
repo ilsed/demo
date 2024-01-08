@@ -1,4 +1,4 @@
-package be.demo.solid.interfacesegragation.solution;
+package be.demo.solid.interfacesegregation.step1;
 
 interface Worker {
     void work();
